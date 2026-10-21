@@ -3,6 +3,7 @@
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\QuestionController;
+use App\Http\Controllers\PelangganController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -22,3 +23,7 @@ Route::get('/question/result', function () {
 
     return view('home-question-respon', $data);
     })->name('question.result');
+
+Route::resource('pelanggan', PelangganController::class);
+
+

@@ -126,7 +126,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </span>
-                            <span class="sidebar-text">Tables</span>
+                            <span class="sidebar-text">Pelanggan</span>
                         </span>
                         <span class="link-arrow">
                             <svg class="icon icon-sm" fill="currentColor" viewBox="0 0 20 20"
